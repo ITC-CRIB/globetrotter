@@ -4,7 +4,7 @@ globetrotter calculates weighed cumulative distance of each grid cell to the
 nearest point in a set of input points based on a weight (i.e. unit cost) grid. 
 
 Multiple input points are processed at once by using a two-phase concurrent
-implementation of Dijkstra's algorithm [1]. In the first phase, the algorithm
+implementation of [Dijkstra's algorithm][1]. In the first phase, the algorithm
 divides the grid into multiple mutually exclusive blocks which are processed
 individually in parallel. In the second phase, block results are merged and
 corrected by re-considering cells located at the boundaries of the blocks.
