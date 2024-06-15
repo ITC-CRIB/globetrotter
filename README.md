@@ -1,5 +1,7 @@
 # Globetrotter
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11668651.svg)](https://doi.org/10.5281/zenodo.11668651)
+
 Globetrotter calculates weighed cumulative distance of each grid cell to the 
 nearest point in a set of input points or grid cells based on a weight grid
 (i.e. unit travel cost grid). 
