@@ -17,6 +17,11 @@ identifiers:
   - type: url
     value: 'https://github.com/ITC-CRIB/globetrotter'
     description: Code repository
+  - type: doi
+    value: 10.5281/zenodo.11668651
+    description: Source code
+repository-code: 'https://github.com/ITC-CRIB/globetrotter/'
+repository: 'https://zenodo.org/doi/10.5281/zenodo.11668651'
 abstract: >-
   Globetrotter calculates weighed cumulative distance of
   each grid cell to the nearest point in a set of input
